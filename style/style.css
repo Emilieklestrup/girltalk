@@ -11,3 +11,21 @@
   --beige: #fff5eb;
   --black: #1d1d1b;
 }
+h1 {
+  font-family: "obviously", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--darkblue);
+  font-size: 100px;
+  text-align: center;
+}
+h2 {
+  font-family: "obviously", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--darkblue);
+  font-size: 62px;
+  text-align: right;
+}
+main {
+  margin: 100px;
