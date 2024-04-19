@@ -1,15 +1,25 @@
 ---
 
 ---
-<nav>
-    <img src="../logo.svg" alt="logo">
-    <img src="../burgermenu" alt="menu">
-</nav>
 
+<div class="border">
+  <nav>
+    <img src="../logo.svg" alt="logo" />
+    <img src="../burgermenu.svg" alt="menu" />
+  </nav>
+</div>
 <style>
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-content: baseline;
-    }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: baseline;
+    padding: 30px 15px 30px 15px;
+    background-color: #ffff;
+  }
+
+  .border {
+    border-bottom: solid 2px var(--black);
+    margin: 0px;
+    position: sticky;
+  }
 </style>
