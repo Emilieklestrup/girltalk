@@ -1,5 +1,5 @@
 ---
-
+import Head from "../komponenter/Head.astro";
 ---
 
 <html lang="en">
@@ -15,11 +15,20 @@
     <title>one_page</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <Head />
+    </header>
     <main>
-      <h1>GIRL TALK</h1>
-      <h2>MED VIOLA & ANGI</h2>
-      <img src="" alt="" />
+      <div class="top">
+        <h1>GIRL TALK</h1>
+        <div class="grid2">
+          <img class="pigerne" src="../pigerne.png" alt="" />
+          <h2>MED VIOLA & ANGI</h2>
+          <div class="rød">
+            <h3>hør viola og angi's <br /> girltalks her :</h3>
+          </div>
+        </div>
+      </div>
     </main>
     <footer></footer>
   </body>
