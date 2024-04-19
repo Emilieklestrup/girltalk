@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --darkblue: #273aaa;
+  --lightblue: #d1ecef;
+  --red: #fc4d5c;
+  --pink: #f7c7d9;
+  --beige: #fff5eb;
+  --black: #1d1d1b;
+}
