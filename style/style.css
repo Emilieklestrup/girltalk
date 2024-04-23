@@ -40,7 +40,7 @@ h3 {
 img {
   max-width: 100%;
 }
-.pigerne {
+/* .pigerne {
   max-width: 40%;
   grid-column: 1fr;
   grid-row: span 2;
@@ -48,7 +48,7 @@ img {
 .top {
   background-color: #fff;
   margin: 0px 50px 0px 50px;
-}
+} */
 .rød {
   padding: 10px;
   background-color: #fc4d5c;
@@ -59,9 +59,55 @@ img {
   grid-template-columns: 1fr 1fr;
 }
 
+/* toppen af siden*/
+.top {
+  background-color: #fff;
+  margin: 0px 50px 0px 50px;
+}
 
-/* toppen af siden
+.image-container {
+  position: relative;
+  max-width: 100%;
+  grid-column: 1fr;
+  grid-row: span 2;
+}
 
+.pigerne {
+  width: 100%;
+  display: block;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-overlay h1,
+.text-overlay h2 {
+  color: var(--darkblue);
+  margin: 0;
+}
+.text-overlay h2 {
+  transform: translate(50%, -30%);
+}
+.tiktok-link {
+  position: absolute;
+  top: 584px;
+  right: 169px;
+  transition: transform 0.3s ease;
+}
+
+.tiktok-link:hover .tiktok-icon {
+  transform: scale(1.1);
+}
+
+.tiktok-icon {
+  width: 60px;
+  height: auto;
+}
 
 /* mobil
 
@@ -71,4 +117,72 @@ img {
 
 /* hjælp/chat
 
-*footer 
+*footer */
+footer {
+  background-color: #f7c7d9;
+}
+.grid_footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.grid_fotter2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.social {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+.chat {
+  padding-left: 30%;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.social-item img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.grid_footer2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.sms {
+  padding-left: 21%;
+  padding-bottom: 5%;
+}
+
+.chat-link:hover .chat-ikon {
+  transform: scale(1.1);
+}
+
+.chat-ikon {
+  width: 15%;
+  height: auto;
+}
+
+h4 {
+  font-family: "obviously", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--black);
+}
+
+p {
+  font-family: "obviously", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--black);
+}

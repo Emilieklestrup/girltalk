@@ -1,5 +1,5 @@
 ---
-
+import Head from "../komponenter/head.astro"
 ---
 
 <html lang="en">
@@ -15,18 +15,25 @@
     <title>one_page</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <Head></Head>
+    </header>
     <main>
 
     <!-- toppen -->
-      <div class="top">
-        <h1>GIRL TALK</h1>
-
-        <h2>MED VIOLA & ANGI</h2>
-        <img class="pigerne" src="../pigerne2.svg" alt="" />
-
-        <h3>hør viola og angi's <br /> girltalks her :</h3>
+    <div class="top">
+      <div class="image-container">
+        <img class="pigerne" src="../top.png" alt="" />
+        <a href="#" class="tiktok-link">
+          <img class="tiktok-icon" src="../public/tiktok_icon.svg" alt="TikTok Icon" />
+        </a>
+        <div class="text-overlay">
+          <h1>GIRL TALK</h1>
+          <h2>MED VIOLA & ANGI</h2>
+          
+        </div>
       </div>
+    </div>
 
 
   <!-- mobil -->
@@ -40,6 +47,91 @@
 
 
     </main>
-    <footer></footer>
+    <footer>
+      <section class="grid_footer">
+        <div class="chat">
+         <h4>Chattens åbningstider:</h4>
+         <br>
+          <p>Man - Tors &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 18:30-24:00</p>
+          <br>
+         <p> Fre - Lør &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   19:00-23:00</p>
+         <br>
+         <p>Søndag &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   18:30-24:00</p>
+        </div>
+        <div class="grid_fotter2">
+          <div class="for_unge">
+          <h4>For unge</h4>
+          <br>
+          <p>Lokal afdeling</p>
+          <br>
+          <p>Kontakt</p>
+          <br>
+          <p>FAQ til projektopgaver</p>
+        </div>
+        <div class="om">
+          <h4>Om Girltalk</h4>
+          <br>
+          <p>Nyheder</p>
+          <br>
+          <p>Bliv frivillig</p>
+          <br>
+          <p>Støt</p>
+          <br>
+          <p>Jobs</p>
+          <br>
+          <p>Privatlivspolitik</p>
+          <br>
+          <p>Cookiepolitik</p>
+          </div>
+
+          <div class="social-media">
+            <h4>Find Os Her</h4>
+            <br>
+            <br>
+            <div class="social-item">
+              <img src="../public/yt.webp" alt="YouTube Ikon">
+              <p>Youtube</p>
+            </div>
+            <div class="social-item">
+              <img src="../public/insta.webp" alt="Instagram Ikon">
+              <p>Instagram</p>
+            </div>
+
+            <div class="social-item">
+              <img src="../public/tik.webp" alt="tiktok Ikon">
+              <p>TikTok</p>
+            </div> 
+            <div class="social-item">
+              <img src="../public/spy.webp" alt="spotify">
+              <p>Spotify</p>
+            </div> 
+            <div class="social-item">
+              <img src="../public/link.webp" alt="likedin">
+              <p>LinkedIn</p>
+            </div>
+            <div class="social-item">
+              <img src="../public/face.webp" alt="Facebook">
+              <p>Facebook</p>
+          </div>
+      </section>
+      <section class="grid_footer2">
+        <div class="sms">
+          <h4>Send os en SMS</h4>
+          <br>
+          <p>Du kan altid sende en sms til os. Vi svarer i chattens åbningstid</p>
+          <br>
+          <p>Tlf: 30 14 53 48</p>
+          <br>
+          <br>
+          <p>Martinsvej 7, 1 1926 Frederiksberg C</p>
+        </div>
+        <a href="#" class="chat-link">
+          <img class="chat-ikon" src="../public/chatt.svg" alt="Chat Ikon">
+        </a>
+      </section>
+
+
+
+    </footer>
   </body>
 </html>
