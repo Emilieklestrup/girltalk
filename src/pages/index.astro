@@ -1,5 +1,5 @@
 ---
-
+import Head from "../komponenter/head.astro"
 ---
 
 <html lang="en">
@@ -15,7 +15,9 @@
     <title>one_page</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <Head></Head>
+    </header>
 
     <!-- toppen -->
 
@@ -192,7 +194,7 @@
 
       <!-- hjælp -->
 
-      <section>
+      <section class="hej">
         <h2 class="overskrift_hjælp">HAR DU BRUG FOR HJÆLP?</h2>
         <div class="chat_grid">
           <img src="../telefon.png" alt="" />
@@ -284,7 +286,8 @@
                 <img src="../public/face.webp" alt="Facebook" />
                 <p>Facebook</p>
               </div>
-            </div>
+            </div> 
+          </section>
             <section class="grid_footer2">
               <div class="sms">
                 <h4>Send os en SMS</h4>
@@ -307,8 +310,8 @@
                 />
               </a>
             </section>
-          </div>
-        </section>
+          </section>
+       
       </footer>
     </main>
   </body>

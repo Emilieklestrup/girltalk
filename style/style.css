@@ -55,9 +55,6 @@ img {
   max-width: 100%;
 }
 
-
-
-
 /* .pigerne {
 >>>>>>> 9deca9a1125146b0cd102d664d20d32159388724
   max-width: 40%;
@@ -320,7 +317,6 @@ video {
 
 /* 3 punkter */
 
-
 /* hjælp/chat
 
 /*footer */
@@ -336,8 +332,8 @@ video {
 
 .funktioner {
   align-items: center;
-  border: 40px solid;
-  background-color: black;
+  border: 40px solid white;
+  background-color: white;
 }
 
 .grid_1_1_1 {
@@ -355,6 +351,7 @@ video {
 .overskrift_hjælp {
   text-align: center;
   margin-top: 4rem;
+  background-color: #f7c7d9;
 }
 
 .brødtekst_hjælp {
@@ -369,9 +366,12 @@ video {
   padding-left: 20rem;
   padding-right: 20rem;
   margin-top: 6rem;
+  background-color: #f7c7d9;
 }
-
-*footer */ footer {
+.hej {
+  background-color: #f7c7d9;
+}
+footer {
   background-color: #f7c7d9;
 }
 
@@ -380,6 +380,7 @@ video {
   grid-template-columns: 1fr 2fr;
   padding-top: 3%;
   padding-bottom: 3%;
+  border-top: solid 40px white;
 }
 
 .grid_fotter2 {
@@ -425,7 +426,10 @@ video {
 .chat-link:hover .chat-ikon {
   transform: scale(1.1);
 }
-
+.chat-link {
+  align-items: center;
+  text-align: center;
+}
 .chat-ikon {
   width: 15%;
   height: auto;
