@@ -3,7 +3,14 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+@font-face {
+  font-family: "expanded-m";
+  src: url(../fonte/ArchivoExpanded-Medium.woff2);
+}
+@font-face {
+  font-family: "expanded-s";
+  src: url(../fonte/ArchivoExpanded-SemiBold.woff2);
+}
 :root {
   --darkblue: #273aaa;
   --lightblue: #d1ecef;
@@ -118,14 +125,14 @@ img {
 .item-1 {
   display: flex;
   justify-content: center;
-  padding: 200px;
+  padding: 100px;
 }
 .item-2 {
   display: flex;
   justify-content: center;
   gap: 30px;
   flex-direction: column;
-  padding-right: 100px;
+  padding-right: 150px;
 }
 .item-3 {
   display: flex;
@@ -133,7 +140,7 @@ img {
   padding: 100px;
 }
 video {
-  max-width: 300px;
+  max-width: 350px;
   border: 15px solid var(--red);
   border-radius: 30px;
 }
@@ -155,22 +162,32 @@ video {
   scroll-snap-stop: always;
   background-color: var(--pink);
 }
+.slid-4 {
+  height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  background-color: var(--pink);
+}
 .scoll {
   height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
 }
 .scoll p {
-  font-family: "archivo-variable", sans-serif;
-  font-variation-settings: "wdth" 100, "wght" 600;
+  font-family: "expanded-m", sans-serif;
+
   color: var(--black);
-  font-size: 16px;
+  line-height: 1.5rem;
+  font-size: 18px;
 }
 .scoll strong p {
-  font-family: "archivo-variable", sans-serif;
-  font-variation-settings: "wdth" 100, "wght" 600;
+  font-family: "obviously", sans-serif;
+  font-weight: 700;
+  font-style: normal;
   font-size: 60px;
   text-transform: uppercase;
+  color: #fc4d5c;
+  padding-bottom: 30px;
 }
 
 /* fatcs
