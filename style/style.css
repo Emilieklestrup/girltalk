@@ -109,7 +109,69 @@ img {
   height: auto;
 }
 
-/* mobil
+/* mobil*/
+
+.grid_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.item-1 {
+  display: flex;
+  justify-content: center;
+  padding: 200px;
+}
+.item-2 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: column;
+  padding-right: 100px;
+}
+.item-3 {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+video {
+  max-width: 300px;
+  border: 15px solid var(--red);
+  border-radius: 30px;
+}
+.slid-1 {
+  height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  background-color: var(--pink);
+}
+.slid-2 {
+  height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  background-color: var(--pink);
+}
+.slid-3 {
+  height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  background-color: var(--pink);
+}
+.scoll {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+.scoll p {
+  font-family: "archivo-variable", sans-serif;
+  font-variation-settings: "wdth" 100, "wght" 600;
+  color: var(--black);
+  font-size: 16px;
+}
+.scoll strong p {
+  font-family: "archivo-variable", sans-serif;
+  font-variation-settings: "wdth" 100, "wght" 600;
+  font-size: 60px;
+  text-transform: uppercase;
+}
 
 /* fatcs
 
@@ -119,18 +181,18 @@ img {
   text-align: center;
 }
 
-.bobler{
+.bobler {
   margin-left: 13rem;
   margin-top: 4rem;
 }
 
-.funktioner{
+.funktioner {
   align-items: center;
   border: 40px solid;
   background-color: black;
 }
 
-.grid_1_1_1{
+.grid_1_1_1 {
   color: #273aaa;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -142,18 +204,18 @@ img {
 
 /* hjælp/chat */
 
-.overskrift_hjælp{
+.overskrift_hjælp {
   text-align: center;
   margin-top: 4rem;
 }
 
-.brødtekst_hjælp{
+.brødtekst_hjælp {
   color: #273aaa;
   margin-top: 15rem;
   line-height: 2.5;
 }
 
-.chat_grid{
+.chat_grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-left: 20rem;
@@ -161,9 +223,7 @@ img {
   margin-top: 6rem;
 }
 
-
-*footer */
-footer {
+*footer */ footer {
   background-color: #f7c7d9;
 }
 .grid_footer {
