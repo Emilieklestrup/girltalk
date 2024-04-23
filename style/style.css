@@ -67,8 +67,53 @@ img {
 
 /* fatcs
 
-/* 3 punkter 
+/* 3 punkter */
 
-/* hjælp/chat
+.overskrift_bobler {
+  text-align: center;
+}
+
+.bobler{
+  margin-left: 13rem;
+  margin-top: 4rem;
+}
+
+.funktioner{
+  align-items: center;
+  border: 40px solid;
+  background-color: black;
+}
+
+.grid_1_1_1{
+  color: #273aaa;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 2rem;
+  text-align: center;
+  padding-left: 8rem;
+  padding-right: 10rem;
+}
+
+/* hjælp/chat */
+
+.overskrift_hjælp{
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.brødtekst_hjælp{
+  color: #273aaa;
+  margin-top: 15rem;
+  line-height: 2.5;
+}
+
+.chat_grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  margin-top: 6rem;
+}
+
 
 *footer 
