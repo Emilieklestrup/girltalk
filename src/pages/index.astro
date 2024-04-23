@@ -1,5 +1,5 @@
 ---
-import Head from "../komponenter/head.astro"
+import Head from "../komponenter/head.astro";
 ---
 
 <html lang="en">
@@ -16,122 +16,166 @@ import Head from "../komponenter/head.astro"
   </head>
   <body>
     <header>
-      <Head></Head>
+      <Head />
     </header>
     <main>
-
-    <!-- toppen -->
-    <div class="top">
-      <div class="image-container">
-        <img class="pigerne" src="../top.png" alt="" />
-        <a href="#" class="tiktok-link">
-          <img class="tiktok-icon" src="../public/tiktok_icon.svg" alt="TikTok Icon" />
-        </a>
-        <div class="text-overlay">
-          <h1>GIRL TALK</h1>
-          <h2>MED VIOLA & ANGI</h2>
-          
+      <!-- toppen -->
+      <div class="top">
+        <div class="image-container">
+          <img class="pigerne" src="../top.png" alt="" />
+          <a href="#" class="tiktok-link">
+            <img
+              class="tiktok-icon"
+              src="../public/tiktok_icon.svg"
+              alt="TikTok Icon"
+            />
+          </a>
+          <div class="text-overlay">
+            <h1>GIRL TALK</h1>
+            <h2>MED VIOLA & ANGI</h2>
+          </div>
         </div>
       </div>
-    </div>
 
+      <!-- mobil -->
 
-  <!-- mobil -->
+      <!-- facts -->
 
+      <!-- 3 punkter -->
 
-<!-- facts -->
+      <section class="funktioner">
+        <h2 class="overskrift_bobler">BLIV KLOGERE PÅ DIG SELV</h2>
+        <div class="bobler">
+          <img src="../boble_1.png" alt="CHAT" />
+          <img src="../boble_2.png" alt="" />
+          <img src="../boble_3.png" alt="" />
+        </div>
+        <div class="grid_1_1_1">
+          <p><strong>CHAT</strong></p>
+          <p>VIDEN UNIVERS</p>
+          <p>BREVKASSEN</p>
+        </div>
+      </section>
 
-<!-- 3 punkter -->
+      <!-- hjælp -->
 
-<!-- hjælp -->
+      <section>
+        <h2 class="overskrift_hjælp">HAR DU BRUG FOR HJÆLP?</h2>
+        <div class="chat_grid">
+          <img src="../telefon.png" alt="" />
+          <div class="brødtekst_hjælp">
+            <p>
+              <strong>
+                Har du nogensinde følt ikke at have nogle at gå til med dine
+                tanker? Du kan altid prøve at skrive ind til vores chat, som er
+                åben for dig, som har noget på hjertet, men måske synes det
+                svært at åbne op om. Vi er her for dig.
+              </strong>
+            </p>
+          </div>
+        </div>
+      </section>
 
-
+      <!-- hjælp -->
     </main>
     <footer>
       <section class="grid_footer">
         <div class="chat">
-         <h4>Chattens åbningstider:</h4>
-         <br>
+          <h4>Chattens åbningstider:</h4>
+          <br />
           <p>Man - Tors &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 18:30-24:00</p>
-          <br>
-         <p> Fre - Lør &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   19:00-23:00</p>
-         <br>
-         <p>Søndag &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   18:30-24:00</p>
+          <br />
+          <p>
+            Fre - Lør &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            19:00-23:00
+          </p>
+          <br />
+          <p>
+            Søndag
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            18:30-24:00
+          </p>
         </div>
         <div class="grid_fotter2">
           <div class="for_unge">
-          <h4>For unge</h4>
-          <br>
-          <p>Lokal afdeling</p>
-          <br>
-          <p>Kontakt</p>
-          <br>
-          <p>FAQ til projektopgaver</p>
-        </div>
-        <div class="om">
-          <h4>Om Girltalk</h4>
-          <br>
-          <p>Nyheder</p>
-          <br>
-          <p>Bliv frivillig</p>
-          <br>
-          <p>Støt</p>
-          <br>
-          <p>Jobs</p>
-          <br>
-          <p>Privatlivspolitik</p>
-          <br>
-          <p>Cookiepolitik</p>
+            <h4>For unge</h4>
+            <br />
+            <p>Lokal afdeling</p>
+            <br />
+            <p>Kontakt</p>
+            <br />
+            <p>FAQ til projektopgaver</p>
+          </div>
+          <div class="om">
+            <h4>Om Girltalk</h4>
+            <br />
+            <p>Nyheder</p>
+            <br />
+            <p>Bliv frivillig</p>
+            <br />
+            <p>Støt</p>
+            <br />
+            <p>Jobs</p>
+            <br />
+            <p>Privatlivspolitik</p>
+            <br />
+            <p>Cookiepolitik</p>
           </div>
 
           <div class="social-media">
             <h4>Find Os Her</h4>
-            <br>
-            <br>
+            <br />
+            <br />
             <div class="social-item">
-              <img src="../public/yt.webp" alt="YouTube Ikon">
+              <img src="../public/yt.webp" alt="YouTube Ikon" />
               <p>Youtube</p>
             </div>
             <div class="social-item">
-              <img src="../public/insta.webp" alt="Instagram Ikon">
+              <img src="../public/insta.webp" alt="Instagram Ikon" />
               <p>Instagram</p>
             </div>
 
             <div class="social-item">
-              <img src="../public/tik.webp" alt="tiktok Ikon">
+              <img src="../public/tik.webp" alt="tiktok Ikon" />
               <p>TikTok</p>
-            </div> 
+            </div>
             <div class="social-item">
-              <img src="../public/spy.webp" alt="spotify">
+              <img src="../public/spy.webp" alt="spotify" />
               <p>Spotify</p>
-            </div> 
+            </div>
             <div class="social-item">
-              <img src="../public/link.webp" alt="likedin">
+              <img src="../public/link.webp" alt="likedin" />
               <p>LinkedIn</p>
             </div>
             <div class="social-item">
-              <img src="../public/face.webp" alt="Facebook">
+              <img src="../public/face.webp" alt="Facebook" />
               <p>Facebook</p>
+            </div>
           </div>
-      </section>
-      <section class="grid_footer2">
-        <div class="sms">
-          <h4>Send os en SMS</h4>
-          <br>
-          <p>Du kan altid sende en sms til os. Vi svarer i chattens åbningstid</p>
-          <br>
-          <p>Tlf: 30 14 53 48</p>
-          <br>
-          <br>
-          <p>Martinsvej 7, 1 1926 Frederiksberg C</p>
+          <section class="grid_footer2">
+            <div class="sms">
+              <h4>Send os en SMS</h4>
+              <br />
+              <p>
+                Du kan altid sende en sms til os. Vi svarer i chattens
+                åbningstid
+              </p>
+              <br />
+              <p>Tlf: 30 14 53 48</p>
+              <br />
+              <br />
+              <p>Martinsvej 7, 1 1926 Frederiksberg C</p>
+            </div>
+            <a href="#" class="chat-link">
+              <img
+                class="chat-ikon"
+                src="../public/chatt.svg"
+                alt="Chat Ikon"
+              />
+            </a>
+          </section>
         </div>
-        <a href="#" class="chat-link">
-          <img class="chat-ikon" src="../public/chatt.svg" alt="Chat Ikon">
-        </a>
       </section>
-
-
-
     </footer>
   </body>
 </html>
