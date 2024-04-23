@@ -338,7 +338,9 @@ video {
   padding-left: 8rem;
   padding-right: 10rem;
 }
-
+.grid_1_1_1 p {
+  color: #273aaa;
+}
 /* hjælp/chat */
 
 .overskrift_hjælp {

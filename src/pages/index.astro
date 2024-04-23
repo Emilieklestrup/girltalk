@@ -1,5 +1,5 @@
 ---
-import Head from "../komponenter/head.astro"
+import Head from "../komponenter/Head.astro";
 ---
 
 <html lang="en">
@@ -16,7 +16,7 @@ import Head from "../komponenter/head.astro"
   </head>
   <body>
     <header>
-      <Head></Head>
+      <Head />
     </header>
 
     <!-- toppen -->
@@ -75,9 +75,9 @@ import Head from "../komponenter/head.astro"
                 herunder venner, medier og samfundet generelt. Det er vigtigt
                 for unge piger at huske, at de har ret til at sige nej til
                 alkohol, hvis de ikke er komfortable med at drikke.
-                <br /><br /> Det er også vigtigt at forstå, at det ikke er
-                nødvendigt at drikke alkohol for at have det sjovt eller føle
-                sig accepteret af venner.
+                <br /><br /> Det er også vigtigt at forstå, at det ikke er nødvendigt
+                at drikke alkohol for at have det sjovt eller føle sig accepteret
+                af venner.
               </p>
             </div>
           </div>
@@ -189,12 +189,8 @@ import Head from "../komponenter/head.astro"
           <p><strong>CHAT</strong></p>
           <p><strong>VIDEN UNIVERS</strong></p>
           <p><strong>BREVKASSEN</strong></p>
-
-          
         </div>
       </section>
-     
-
 
       <!-- hjælp -->
 
@@ -204,10 +200,10 @@ import Head from "../komponenter/head.astro"
           <img class="mobil2" src="../telefon.png" alt="" />
           <div class="brødtekst_hjælp">
             <p class="mille_tekst">
-                Har du nogensinde følt ikke at have nogle at gå til med dine
-                tanker? Du kan altid prøve at skrive ind til vores chat, som er
-                åben for dig, som har noget på hjertet, men måske synes det
-                svært at åbne op om. Vi er her for dig.
+              Har du nogensinde følt ikke at have nogle at gå til med dine
+              tanker? Du kan altid prøve at skrive ind til vores chat, som er
+              åben for dig, som har noget på hjertet, men måske synes det svært
+              at åbne op om. Vi er her for dig.
             </p>
           </div>
         </div>
@@ -288,32 +284,31 @@ import Head from "../komponenter/head.astro"
                 <img src="../public/face.webp" alt="Facebook" />
                 <p>Facebook</p>
               </div>
-            </div> 
+            </div>
+          </div>
+          <section class="grid_footer2">
+            <div class="sms">
+              <h4>Send os en SMS</h4>
+              <br />
+              <p>
+                Du kan altid sende en sms til os. Vi svarer i chattens
+                åbningstid
+              </p>
+              <br />
+              <p>Tlf: 30 14 53 48</p>
+              <br />
+              <br />
+              <p>Martinsvej 7, 1 1926 Frederiksberg C</p>
+            </div>
+            <a href="#" class="chat-link">
+              <img
+                class="chat-ikon"
+                src="../public/chatt.svg"
+                alt="Chat Ikon"
+              />
+            </a>
           </section>
-            <section class="grid_footer2">
-              <div class="sms">
-                <h4>Send os en SMS</h4>
-                <br />
-                <p>
-                  Du kan altid sende en sms til os. Vi svarer i chattens
-                  åbningstid
-                </p>
-                <br />
-                <p>Tlf: 30 14 53 48</p>
-                <br />
-                <br />
-                <p>Martinsvej 7, 1 1926 Frederiksberg C</p>
-              </div>
-              <a href="#" class="chat-link">
-                <img
-                  class="chat-ikon"
-                  src="../public/chatt.svg"
-                  alt="Chat Ikon"
-                />
-              </a>
-            </section>
-          </section>
-       
+        </section>
       </footer>
     </main>
   </body>
