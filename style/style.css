@@ -55,21 +55,6 @@ img {
   max-width: 100%;
 }
 
-/* .pigerne {
->>>>>>> 9deca9a1125146b0cd102d664d20d32159388724
-  max-width: 40%;
-  grid-column: 1fr;
-  grid-row: span 2;
-}
-
-.top {
-  background-color: #fff;
-  margin: 0px 50px 0px 50px;
-
-
-=======
-} */
-
 .rød {
   padding: 10px;
   background-color: #fc4d5c;
@@ -224,35 +209,36 @@ video {
   margin-right: 50%;
 }
 
-.ph3 {
-  margin-top: 12%;
-}
-
 .p1 {
   max-width: 70%;
   margin-top: 2%;
-  line-height: 1.5rem;
+  line-height: 2.5rem;
+  font-family: "expanded-m", sans-serif;
 }
 
 .p2 {
-  margin-left: 29%;
+  margin-left: 25%;
   margin-top: 1%;
-  line-height: 1.5rem;
+  line-height: 2.5rem;
+  font-family: "expanded-m", sans-serif;
 }
 
 .p3 {
   max-width: 70%;
   margin-top: 1%;
   margin-left: 15%;
-  line-height: 1.5rem;
+  line-height: 2.5rem;
+  font-family: "expanded-m", sans-serif;
 }
 
 .krop {
   margin-left: 15%;
+  margin-bottom: 3%;
 }
 
 .seksu {
   text-align: center;
+  margin-bottom: 3%;
 }
 
 .numse {
@@ -265,6 +251,7 @@ video {
   margin-left: 48%;
   margin-top: 3%;
   max-width: 25%;
+  margin-bottom: 3%;
 }
 
 .bikini {
@@ -290,7 +277,7 @@ video {
   align-items: flex-end; */
   grid-column: 2;
   grid-row: 2;
-  margin-top: 31%;
+  margin-top: 42%;
 }
 
 .item1 {
@@ -320,14 +307,20 @@ video {
 /* hjælp/chat
 
 /*footer */
+.mille_tekst {
+  line-height: 3rem;
+  font-family: "expanded-m", sans-serif;
+}
 
 .overskrift_bobler {
   text-align: center;
 }
 
 .bobler {
-  margin-left: 13rem;
-  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .funktioner {
@@ -356,8 +349,12 @@ video {
 
 .brødtekst_hjælp {
   color: #273aaa;
-  margin-top: 15rem;
+  margin-top: 10rem;
   line-height: 2.5;
+}
+
+.mobil2 {
+  margin-bottom: 10%;
 }
 
 .chat_grid {
