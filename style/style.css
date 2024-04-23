@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "expanded-m";
+  src: url(../fonte/ArchivoExpanded-Medium.woff2);
+}
+
+@font-face {
+  font-family: "expanded-s";
+  src: url(../fonte/ArchivoExpanded-SemiBold.woff2);
+}
+
 :root {
   --darkblue: #273aaa;
   --lightblue: #d1ecef;
@@ -45,7 +55,11 @@ img {
   max-width: 100%;
 }
 
-.pigerne {
+
+
+
+/* .pigerne {
+>>>>>>> 9deca9a1125146b0cd102d664d20d32159388724
   max-width: 40%;
   grid-column: 1fr;
   grid-row: span 2;
@@ -54,7 +68,10 @@ img {
 .top {
   background-color: #fff;
   margin: 0px 50px 0px 50px;
-}
+
+
+=======
+} */
 
 .rød {
   padding: 10px;
@@ -67,11 +84,142 @@ img {
   grid-template-columns: 1fr 1fr;
 }
 
+/* toppen af siden*/
+.top {
+  background-color: #fff;
+  margin: 0px 50px 0px 50px;
+}
 
-/* toppen af siden
+.image-container {
+  position: relative;
+  max-width: 100%;
+  grid-column: 1fr;
+  grid-row: span 2;
+}
 
+.pigerne {
+  width: 100%;
+  display: block;
+}
 
-/* mobil
+.text-overlay {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-overlay h1,
+.text-overlay h2 {
+  color: var(--darkblue);
+  margin: 0;
+}
+
+.text-overlay h2 {
+  transform: translate(50%, -30%);
+}
+
+.tiktok-link {
+  position: absolute;
+  top: 584px;
+  right: 169px;
+  transition: transform 0.3s ease;
+}
+
+.tiktok-link:hover .tiktok-icon {
+  transform: scale(1.1);
+}
+
+.tiktok-icon {
+  width: 60px;
+  height: auto;
+}
+
+/* mobil*/
+
+.grid_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.item-1 {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.item-2 {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: column;
+  padding-right: 150px;
+}
+
+.item-3 {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+video {
+  max-width: 350px;
+  border: 15px solid var(--red);
+  border-radius: 30px;
+}
+
+.slid-1 {
+  height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  background-color: var(--pink);
+}
+
+.slid-2 {
+  height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  background-color: var(--pink);
+}
+
+.slid-3 {
+  height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  background-color: var(--pink);
+}
+
+.slid-4 {
+  height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  background-color: var(--pink);
+}
+
+.scoll {
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
+
+.scoll p {
+  font-family: "expanded-m", sans-serif;
+
+  color: var(--black);
+  line-height: 1.5rem;
+  font-size: 18px;
+}
+
+.scoll strong p {
+  font-family: "obviously", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #fc4d5c;
+  padding-bottom: 30px;
+}
 
 /* fatcs  */
 .facts {
@@ -172,6 +320,127 @@ img {
 
 /* 3 punkter */
 
-/* hjælp/chat */
+
+/* hjælp/chat
 
 /*footer */
+
+.overskrift_bobler {
+  text-align: center;
+}
+
+.bobler {
+  margin-left: 13rem;
+  margin-top: 4rem;
+}
+
+.funktioner {
+  align-items: center;
+  border: 40px solid;
+  background-color: black;
+}
+
+.grid_1_1_1 {
+  color: #273aaa;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 2rem;
+  text-align: center;
+  padding-left: 8rem;
+  padding-right: 10rem;
+}
+
+/* hjælp/chat */
+
+.overskrift_hjælp {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.brødtekst_hjælp {
+  color: #273aaa;
+  margin-top: 15rem;
+  line-height: 2.5;
+}
+
+.chat_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  margin-top: 6rem;
+}
+
+*footer */ footer {
+  background-color: #f7c7d9;
+}
+
+.grid_footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.grid_fotter2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.social {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.chat {
+  padding-left: 30%;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.social-item img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.grid_footer2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sms {
+  padding-left: 21%;
+  padding-bottom: 5%;
+}
+
+.chat-link:hover .chat-ikon {
+  transform: scale(1.1);
+}
+
+.chat-ikon {
+  width: 15%;
+  height: auto;
+}
+
+h4 {
+  font-family: "obviously", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: var(--black);
+}
+
+p {
+  font-family: "obviously", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: var(--black);
+}
